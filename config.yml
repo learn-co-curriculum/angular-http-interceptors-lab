@@ -1,0 +1,12 @@
+-  request:
+      url: ^/rest/user$
+      method: GET
+   response:
+    - status: 500
+      latency: 204
+      headers:
+         content-type: application/json
+      body: >
+         {
+          "status": "error"
+         }
